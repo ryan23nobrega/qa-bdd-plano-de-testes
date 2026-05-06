@@ -1,0 +1,23 @@
+{
+  "name": "qa-bdd-plano-de-testes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan23nobrega/qa-bdd-plano-de-testes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ryan23nobrega/qa-bdd-plano-de-testes/issues"
+  },
+  "homepage": "https://github.com/ryan23nobrega/qa-bdd-plano-de-testes#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
