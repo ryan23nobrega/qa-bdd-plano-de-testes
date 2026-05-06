@@ -1,25 +1,42 @@
-# Plano de Testes BDD - Checkout
+# Plano de Testes BDD + Automação Playwright
 
-Este repositório apresenta um exemplo de documentação de testes baseada em BDD, com foco em regras de negócio para um fluxo de checkout.
+Projeto desenvolvido com foco em organização, rastreabilidade e automação de testes utilizando práticas de BDD (Behavior Driven Development).
 
-O objetivo do projeto é demonstrar organização, rastreabilidade e pensamento crítico na criação de cenários de teste.
+O objetivo deste projeto é demonstrar a estruturação de cenários baseados em regras de negócio, automação E2E com Playwright e integração contínua com GitHub Actions.
 
-## Conteúdo
+---
 
-- Plano de testes
-- Cenários escritos em Gherkin
-- Regras de negócio
-- Priorização por risco
-- Status de execução
-- Evidências
-- Indicação de cenários automatizáveis
+## Tecnologias utilizadas
 
-## Arquivo principal
+- Playwright
+- JavaScript
+- GitHub Actions
+- Page Object Model (POM)
+- BDD / Gherkin
+- HTML Reports
 
-A planilha completa está disponível no arquivo:
+---
 
-`plano_testes_bdd_checkout.xlsx`
+## Estrutura do projeto
 
-## Objetivo
-
-Demonstrar como um QA pode estruturar cenários de teste de forma clara, rastreável e orientada ao negócio, utilizando BDD como apoio para comunicação entre QA, desenvolvimento e produto.
+```bash
+qa-bdd-plano-de-testes
+│
+├── .github/workflows
+│   └── playwright.yml
+│
+├── data
+│   └── checkoutData.js
+│
+├── pages
+│   └── loginPage.js
+│
+├── tests
+│   ├── checkout.spec.js
+│   │
+│   └── ui
+│       └── login.spec.js
+│
+├── playwright.config.js
+├── package.json
+└── README.md
